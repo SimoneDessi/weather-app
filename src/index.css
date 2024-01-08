@@ -73,7 +73,7 @@ body {
   color: rgb(255, 255, 255)
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 376px) {
   
 
   .weather-app{
@@ -88,6 +88,7 @@ body {
   }
 
   h3 {
+    font-size: 16px;
     padding: 0;
     margin: 0;
   }
@@ -95,6 +96,10 @@ body {
   .weather-app .card-container {
     width: 25px;
     margin: 0 
+  }
+
+  .weather-app .card-container p {
+    font-size: 12px;
   }
 
   .weather {
